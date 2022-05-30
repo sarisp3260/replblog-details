@@ -4,6 +4,8 @@ import {AiOutlineArrowDown} from 'react-icons/ai'
 import {FaReact} from 'react-icons/fa'
 import {SiVite} from 'react-icons/si'
 
+import { motion } from 'framer-motion'
+
 
 const More = () => {
 
@@ -13,7 +15,11 @@ const More = () => {
         setIsFlipped(!isFlipped);
     }
   return (
-    <div className='center flex-col gap-10 mx-5 mt-20 h-3/4 text-white md:flex-row'>
+    <motion.div 
+    initial={{ opacity: 0 }}
+    animate={{ opacity: 1 }}
+    exit={{ opacity: 0 }} 
+    className='center flex-col gap-10 mx-5 mt-20 h-3/4 text-white md:flex-row'>
 
       <div className=''>
         <img className='w-96 rounded-md md:w-auto' src={repl} alt="" />
@@ -30,7 +36,7 @@ const More = () => {
 
       </div>
 
-    </div>
+    </motion.div>
   )
 }
 

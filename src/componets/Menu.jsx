@@ -23,12 +23,12 @@ const Menu = ({open ,setOpen}) => {
         </Link>
         <hr className='border-b-1 border-dashed w-9/12 border-white'/>
 
-        <a href="" target="_blank" onClick={()=> setOpen(!open)}>
+        <a href="https://github.com/sarisp3260/replblog-details.git" target="_blank" onClick={()=> setOpen(!open)}>
             <h1>Repository</h1>
         </a>
         <hr className='border-b-1 border-dashed w-9/12 border-white'/>
 
-        <a href="" target="_blank" onClick={()=> setOpen(!open)}>
+        <a href="https://www.instagram.com/p/CeHGu_Nvzd1/?utm_source=ig_web_copy_link" target="_blank" onClick={()=> setOpen(!open)}>
             <h1>Post inspiration</h1>
         </a>
         <hr className='border-b-1 border-dashed w-9/12 border-white'/>
