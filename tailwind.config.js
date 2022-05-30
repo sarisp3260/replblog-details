@@ -16,7 +16,7 @@ module.exports = {
         'primary': '#090909',
       },
       backgroundImage: {
-        'pattern': "url('./src/assets/woman.jpg')",
+        'pattern': "url('https://dsm01pap007files.storage.live.com/y4mUWUf8CvEi46X9Cx5XH0pjUVe8SuXm0EsshlkA_9OAeXf2bMdE1sYh36RvVMxgx96dP4l9o7cKrsdLLtTM0fYaCocEZc7tU14kTebvNkix7INs9uW-KEm1KzyX304Cvxwq2Gu39wL8ImLPSsSwvZPpTLp-JJ6PDaJ-movwrarUndoABt0hfQJKaphWRmLeNTy?width=1920&height=1280&cropmode=none')",
       }
     },
   },
